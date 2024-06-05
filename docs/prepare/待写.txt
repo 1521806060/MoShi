@@ -1,0 +1,4 @@
+Upscayl   图片虚浮清晰度ai
+gopeed   下载工具
+bilidown  哔哩哔哩下载好用工具
+Final2x 一款开源、免费且支持多平台（Windows、macOS、Linux）的图片放大工具。
