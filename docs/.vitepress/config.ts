@@ -16,17 +16,16 @@ export default defineConfig<ThemeConfig>({
             })
         }
     },
-    title: 'APP比比',
+    title: '墨拾',
     base: '/',
     head,
-    description: 'github开源作品，开源小程序作品，vueJS项目作品，vue3+ts+vite构建项目教学',
+    description: '个人小博客，记录学习过程，',
     ignoreDeadLinks: true,
     themeConfig: {
-        beecodeurl: 'https://www.appbeebee.com/', //这里是内页ArticleLink组件用到的跳转第三方网址，一般用不到，仅仅用于二次开发
+        beecodeurl: 'https://www.swjs.top/', //这里是内页ArticleLink组件用到的跳转第三方网址，一般用不到，仅仅用于二次开发
         sidebar: [{}], //这里如果删掉，左侧栏的内容全部不显示。页面布局会变成通栏
         nav: [
-            { text: '比比活动福利', link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2NjY4NDM3MQ==&action=getalbum&album_id=2990480834551906308#wechat_redirect' },
-            { text: '比比原创小程序', link: 'https://beebee.work/' }
+            { text: '活动福利', link: 'https://www.swjs.top/' },
         ],
         music: [ //音乐列表，音乐播放器参数在.vitepress/store/player.ts。封面和歌词不支持可自行按照文章教程修改
             // {
@@ -147,8 +146,8 @@ export default defineConfig<ThemeConfig>({
         returnToTopLabel: '返回顶部',
         article: {
             cc: {
-                author: '小鱼哥', //此信息将显示在文章底部和博主卡片中
-                authorLink: 'https://mp.weixin.qq.com/s/iCf-QOnKk2WPjVqL6jJ8WA',
+                author: '守望技术', //此信息将显示在文章底部和博主卡片中
+                authorLink: 'https://mp.weixin.qq.com/s/iCf-QOnKk2WPjVqL6jJ8WA-5855',
                 license: '署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)',
                 licenseLink: 'http://creativecommons.org/licenses/by-sa/4.0/'
             }
@@ -174,7 +173,7 @@ export default defineConfig<ThemeConfig>({
             showFirework: false, //是否显示侧栏烟花特效
             fireworkTitle: '🧨烟花许愿🧨｜②⓪②④新年', //烟花许愿标题
             fireworkWords: ['恭贺新禧', '万事如意', '新年快乐', '恭喜发财', '岁岁平安', '吉祥如意', '心想事成', '万事顺遂', '一帆风顺', '二龙腾飞', '三羊开泰', '四季平安', '五福临门', '六六大顺', '七星高照', '八方来财', '九九同心', '十全十美', '荣华富贵', '金玉满堂', '龙凤呈祥', '喜气洋洋', '鸿运当头', '财源广进', '笑口常开', '幸福安康', '日进斗金', '生意兴隆', '步步高升', '年年有余', '迎春接福', '喜气盈门', '花团锦簇', '前程似锦', '福满人间', '春回大地', '辞旧迎新', '万象更新', '吉祥如意', '万事大吉', '马到成功', '功成名就', '鱼跃龙门', '一飞冲天', '瑞气盈门', '福寿康宁', '时来运转', '鸿运高照', '三阳开泰', '否极泰来', '鸿运亨通', '一帆风顺', '出入平安', '顺风顺水', '龙凤呈祥', '花好月圆', '张灯结彩', '欢天喜地', '合家欢乐', '幸福美满', '和气致祥', '招财进宝', '开门大吉', '迎春接福', '福泽满门', '花开富贵', '竹报平安', '大吉大利', '恭喜发财'], //烟花许愿关键词
-            showFooter: true, //是否显示全局底部信息
+            showFooter: false, //是否显示全局底部信息
             icpRecordCode: '鄂ICP备2022014994号-1',  //网站备案号
             publicSecurityRecordCode: '鄂公网安备42282202000143号', //公安备案号
             link: 'https://appbeebee.com/'
